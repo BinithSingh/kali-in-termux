@@ -26,8 +26,13 @@ Steps
 COMMANDS ONLY FOR THE FIRST TIME
 
 1. ./start.sh
+
 2. echo "nameserver 8.8.8.8' > /etc/resolv.conf
+
 3. logout
+
 4. ./start.sh
+
 5. apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys 7D8D0BF6
+
 6. apt-get update
