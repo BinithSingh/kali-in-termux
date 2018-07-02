@@ -17,9 +17,9 @@ Steps
 
 7. Go to script folder: cd kali-in-termux
 
-8. Give execution permission: chmod +x kaliu.sh
+8. Give execution permission: chmod +x kali.sh
 
-9. Run the script: ./debian.sh
+9. Run the script: ./kali.sh
 
 10. Now just start Kali ./start.sh
 
