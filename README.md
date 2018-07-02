@@ -27,9 +27,9 @@ COMMANDS ONLY FOR THE FIRST TIME
 
 1. ./start.sh
 
-2. echo "nameserver 8.8.8.8' > /etc/resolv.conf
+2. logout
 
-3. logout
+3. cp ~/kali-in-termux/resolv.conf ~„/kali-in-termux/kali-armhf/etc/
 
 4. ./start.sh
 
