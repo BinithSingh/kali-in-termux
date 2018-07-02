@@ -29,7 +29,7 @@ COMMANDS ONLY FOR THE FIRST TIME
 
 2. logout
 
-3. cp ~/kali-in-termux/resolv.conf ~„/kali-in-termux/kali-armhf/etc/
+3. cp ~/kali-in-termux/resolv.conf ~/kali-in-termux/kali-armhf/etc/
 
 4. ./start.sh
 
