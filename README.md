@@ -1,17 +1,30 @@
 # kali-in-termux
 This is a script by which you can install Kali in your termux application without rooted phone
+
 Steps
-Update termux: apt-get update && apt-get upgrade -y
-Install wget: apt-get install wget -y
-Install proot: apt-get install proot -y
-Install git: apt-get install git -y
-Go to HOME folder: cd ~
-Download script: git clone https://github.com/MFDGaming/kali-in-termux.git
-Go to script folder: cd kali-in-termux
-Give execution permission: chmod +x kaliu.sh
-Run the script: ./debian.sh
-Now just start Kali ./start.sh
+
+1. Update termux: apt-get update && apt-get upgrade -y
+
+2. Install wget: apt-get install wget -y
+
+3. Install proot: apt-get install proot -y
+
+4. Install git: apt-get install git -y
+
+5. Go to HOME folder: cd ~
+
+6. Download script: git clone https://github.com/MFDGaming/kali-in-termux.git
+
+7. Go to script folder: cd kali-in-termux
+
+8. Give execution permission: chmod +x kaliu.sh
+
+9. Run the script: ./debian.sh
+
+10. Now just start Kali ./start.sh
+
 COMMANDS ONLY FOR THE FIRST TIME
+
 1. ./start.sh
 2. echo "nameserver 8.8.8.8' > /etc/resolv.conf
 3. logout
