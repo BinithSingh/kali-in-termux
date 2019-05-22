@@ -13,4 +13,4 @@ Steps
 7. Go to script folder: cd kali-in-termux
 8. Give execution permission: chmod +x kali.sh
 9. Run script: ./kali.sh
-11. Now just start ubuntu: ./start.sh
+11. Now just start kali: ./start.sh
