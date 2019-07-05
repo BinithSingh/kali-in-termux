@@ -17,6 +17,8 @@ if [ "$first" != 1 ];then
             wget https://build.nethunter.com/kalifs/kalifs-latest/kalifs-i386-minimal.tar.xz -O kali.tar.xz
         elif [ "$(dpkg --print-architecture)" = "x86" ];then
             wget https://build.nethunter.com/kalifs/kalifs-latest/kalifs-i386-minimal.tar.xz -O kali.tar.xz
+        elif [ "$(dpkg --print-architecture)" = "i686" ];then
+            wget https://build.nethunter.com/kalifs/kalifs-latest/kalifs-i386-minimal.tar.xz -O kali.tar.xz
         elif [ "$(dpkg --print-architecture)" = "amd64" ];then
             wget https://build.nethunter.com/kalifs/kalifs-latest/kalifs-amd64-minimal.tar.xz -O kali.tar.xz
 
